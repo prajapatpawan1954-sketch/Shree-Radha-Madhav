@@ -1,8 +1,6 @@
-
 import { ExpoConfig, ConfigContext } from 'expo/config';
 
 export default ({ config }: ConfigContext): ExpoConfig => ({
-  ...config,
   name: "Shree Radha Madhav",
   slug: "wedding-decor-ar-app",
   version: "1.0.0",
